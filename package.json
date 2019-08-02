@@ -1,0 +1,27 @@
+{
+  "name": "zinc",
+  "version": "1.0.0",
+  "description": "Amazon Price check",
+  "engines": {
+    "node": "8.11.1"
+  },
+  "main": "./bin/www",
+  "scripts": {
+    "start": "node ./bin/www",
+    "dev": "concurrently \"mongod\" \"nodemon ./bin/www\""
+  },
+  "dependencies": {
+    "agenda": "^2.0.2",
+    "app-root-path": "^2.1.0",
+    "dotenv": "^5.0.1",
+    "isomorphic-fetch": "^2.2.1",
+    "mongoose": "^5.0.10",
+    "nodemailer": "^6.3.0",
+    "winston": "^3.1.0",
+    "winston-daily-rotate-file": "^3.5.1"
+  },
+  "devDependencies": {
+    "concurrently": "^3.5.1",
+    "nodemon": "^1.18.9"
+  }
+}

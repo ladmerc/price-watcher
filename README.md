@@ -1,3 +1,5 @@
+NodeJs price watcher that sends a mail notification of sudden price drops for an Amazon product (example product B00FE2N1WS). Project uses [agenda](https://github.com/agenda/agenda) for background task processing and nodemailer for sending notification mails
+
 
 ### Steps to run
 
